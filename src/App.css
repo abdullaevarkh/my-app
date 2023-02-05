@@ -102,3 +102,77 @@ font-weight: 500;
   font-size: 34px;
 }
 
+.menu_block_head4{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.skills{
+font-weight: bold;
+font-size: 34px;
+}
+.menu_block_head5
+{
+  display: flex;
+  width: 100%;
+  background-color:  #F6F6F6;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.portfolio{
+  font-weight: bold;
+  font-size: 34px;
+  margin-top: 112px;
+}
+
+.content_img2{
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  width: 936.24px;
+  height: 510px;
+}
+
+.fashion_storage_hp{
+  color: black;
+  font-size: 18px;
+}
+.margig-top48{
+  margin-top: 48px;
+}
+.content_img3{
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  width: 936.24px;
+  height: 510px;
+}
+
+.rs_concept{
+  margin-top: 45px;
+  color: black;
+  font-size: 18px;
+}
+
+.content_img4{
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  width: 936.24px;
+  height: 510px;
+}
+
+.blp_concept{
+  margin-top: 45px;
+  color: black;
+  font-size: 18px;
+}
