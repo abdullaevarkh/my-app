@@ -2,24 +2,23 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('albina, hello!')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="menu_block_head">
+    <div className="menu_block">
+      <a href="/home" className='menu_links'>Home</a>
+      <a href="/about_me" className='menu_links'>About me</a>
+      <a href="/skills" className='menu_links'>Skills</a>
+      <a href="/portfolio" className='menu_links'>Portfolio</a>
+      <a href="/contacts" className='menu_links'>Contacts</a>
+    </div>
     </div>
   );
 }
 
 export default App;
+{/* <h1>Заголовок 1</h1>
+<h2>Заголовок 2</h2>
+<h3>Заголовок 3</h3>
+<h4>Заголовок 4</h4>
+<h5>Заголовок 5</h5> */}
