@@ -1,23 +1,104 @@
-.menu_block_head {
- justify-content: center;
+.menu_block_head{
+  display: flex;
+  justify-content: center;
+}
+.menu_block{
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  height: 90px;
+  border-bottom: solid black;
+  align-items: center;
+  
+}
+
+.menu_links{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #828282;
+
+}
+
+.menu_links:hover{
+  color: black;
+}
+
+.content_block{
+  width: 940px;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.content_text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content_text1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.denis{
+height: 10px;
+font-size: 48px;
+color: #070707;
+}
+
+.content_text2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.designer{
+height: 10px;
+font-size: 18px;
+color: #070707;
+font-weight: 500;
+}
+.content_text {
   display: flex;
 }
-.menu_block {
-  display:flex;
-  justify-content:space-between;
-  height: 90px;
-  width: 940px;
-  align-items: center;
-  border-bottom: solid #828282;;
+.rotate{
+  transform: rotate(-90deg);
+}
+  .ru{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #828282;
+ 
+  }
 
-}
-.menu_links1{
-color: #828282;
-text-decoration: none;
-font-weight: bold;
-font-size: 18px;
+  .ru:hover{
+    color: black;
+  }
+
+  .content_img{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    height: 387px;
+  }
+
+  .menu_block_head3{
+    display: flex;
+    width: 100%;
+    background-color: #F6F6F6;
+    height: 506px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 104px;
+  }
+
+.aboutme{
+  font-weight: bold;
+  font-size: 34px;
 }
 
-.menu_links1:hover{
-color: black;
-}
