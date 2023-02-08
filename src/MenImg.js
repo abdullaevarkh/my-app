@@ -9,25 +9,16 @@ import bool from "./bool.png";
 import "./App.css";
 import Header from "./Heder";
 import BodyNameMen from "./BodyNameMen";
-import MenImg from "./MenImg";
-import AboutMe from "./AboutMe";
-import Skills from "./Skills";
-import Nav from "./Nav";
-import Contacts from "./Contacts";
 
-function App() {
+function MenImg() {
   console.log("albina, hello!");
   return (
     <>
-      <Header />
-      <BodyNameMen />
-      <MenImg />
-      <AboutMe />
-      <Skills />
-      <Nav/>
-      <Contacts/>
+      <div className="content_img">
+        <img src={qwerty} alt={"qwerty"} />
+      </div>
     </>
   );
 }
 
-export default App;
+export default MenImg;

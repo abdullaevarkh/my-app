@@ -10,24 +10,16 @@ import "./App.css";
 import Header from "./Heder";
 import BodyNameMen from "./BodyNameMen";
 import MenImg from "./MenImg";
-import AboutMe from "./AboutMe";
-import Skills from "./Skills";
-import Nav from "./Nav";
-import Contacts from "./Contacts";
 
-function App() {
+function Skills() {
   console.log("albina, hello!");
   return (
     <>
-      <Header />
-      <BodyNameMen />
-      <MenImg />
-      <AboutMe />
-      <Skills />
-      <Nav/>
-      <Contacts/>
-    </>
+      <div className="menu_block_head4">
+        <h4 className="skills">Skills</h4>
+      </div>
+          </>
   );
 }
 
-export default App;
+export default Skills;

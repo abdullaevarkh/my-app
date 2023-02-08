@@ -17,11 +17,13 @@
   font-size: 18px;
   font-weight: bold;
   color: #828282;
+  transition: all 3s;
 
 }
 
 .menu_links:hover{
   color: black;
+
 }
 
 .content_block{
@@ -148,6 +150,7 @@ font-size: 34px;
 }
 .margig-top48{
   margin-top: 48px;
+  margin-bottom: 48px;
 }
 .content_img3{
   margin-top: 48px;
@@ -175,4 +178,38 @@ font-size: 34px;
   margin-top: 45px;
   color: black;
   font-size: 18px;
+}
+
+.menu_block_head6{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 506px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  
+}
+
+.contacts{
+  font-size: 34px;
+}
+
+.text_welcome{
+  font-weight: 100;
+}
+
+.socialMedia{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 263px;
+  margin-top: 48px;
+}
+.text_lmon{
+  color: #828282;
+  font-size: 14px;
+  margin-top: 48px;
 }
