@@ -1,15 +1,10 @@
-import qwerty from "./qwerty.jpg";
-import sloy from "./sloy.png";
-import reebok_web from "./reebok_web.png";
-import reebok_w from "./reebok_w.png";
-import ins from "./ins.png";
-import inst from "./inst.png";
-import be from "./be.png";
-import bool from "./bool.png";
-import "./App.css";
-import Header from "./Heder";
-import BodyNameMen from "./BodyNameMen";
-import MenImg from "./MenImg";
+
+import ins from "../icons/ins.png";
+import inst from "../icons/inst.png";
+import be from "../icons/be.png";
+import bool from "../icons/bool.png";
+import "../App.css";
+
 
 function Contacts() {
   console.log("albina, hello!");
